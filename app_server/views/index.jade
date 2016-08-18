@@ -1,7 +1,5 @@
 extends layout
 
 block content
-  h1= title
-  p.text-center Welcome to #{title}
-  div hello
-  h3 goodbye
+  h1= pageHeader.title
+  small &nbsp;#{pageHeader.strapline}
