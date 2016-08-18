@@ -5,7 +5,7 @@ module.exports.homelist = function(req, res) {
 
 /* GET Location Info */
 module.exports.locationInfo = function(req, res) {
-	res.render('index', { title : 'Location Info' })
+	res.render('locations-list', { title : 'Location Info' })
 }
 
 /* GET Add Review page */
